@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="droidmentor.bnv_with_viewpager.Fragment.TasksFragment">
+    <com.hjq.bar.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTitlebar"
+        app:backButton="false"
+        app:title="@string/tab1"
+        app:rightIcon="@drawable/ic_action_search"/>
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/tab1"
+        android:textSize="30sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_action_add"
+        app:backgroundTint="#30469b"
+        app:borderWidth="0.0dip"
+        app:elevation="5.0dip"
+        app:fabSize="normal"
+        app:pressedTranslationZ="10.0dip"
+        app:rippleColor="#a6a6a6" />
+
+</RelativeLayout>

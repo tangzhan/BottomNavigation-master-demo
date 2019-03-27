@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="droidmentor.bnv_with_viewpager.Fragment.ContactsFragment">
+    <TextView
+        android:id="@+id/title_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="@string/tab3"
+        android:textSize="20sp"
+        android:background="@color/colorTitlebar"/>
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab3"
+        android:layout_centerInParent="true"
+        android:textSize="30sp" />-->
+  <!-- <DatePicker
+       android:id="@+id/date_picker"
+       android:layout_below="@+id/title_calendar"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:datePickerMode="spinner"
+       android:calendarViewShown="true"
+       android:spinnersShown="false"/>-->
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendarView"
+        android:layout_below="@+id/title_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:mcv_showOtherDates="all"
+        app:mcv_selectionColor="@color/colorTitlebar"
+        />
+
+
+</RelativeLayout>

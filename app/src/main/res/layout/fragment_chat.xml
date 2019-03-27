@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="droidmentor.bnv_with_viewpager.Fragment.ChatFragment">
+    <com.hjq.bar.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTitlebar"
+        app:backButton="false"
+        app:title="@string/tab2"
+        app:rightIcon="@drawable/ic_action_addplan"/>
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab2"
+        android:layout_centerInParent="true"
+        android:textSize="30sp" />
+
+</RelativeLayout>
